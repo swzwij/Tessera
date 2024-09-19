@@ -1,2 +1,13 @@
 ﻿  Source.cpp
-  Tessera.vcxproj -> F:\VS projects\Tessera\x64\Debug\Tessera.exe
+Source.obj : error LNK2019: unresolved external symbol __imp_glBegin referenced in function "void __cdecl drawCircle(float,int)" (?drawCircle@@YAXMH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl drawCircle(float,int)" (?drawCircle@@YAXMH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glEnd referenced in function "void __cdecl drawCircle(float,int)" (?drawCircle@@YAXMH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glOrtho referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glVertex2f referenced in function "void __cdecl drawCircle(float,int)" (?drawCircle@@YAXMH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function main
+F:\VS projects\Tessera\x64\Debug\Tessera.exe : fatal error LNK1120: 11 unresolved externals
